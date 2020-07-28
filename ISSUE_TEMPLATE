@@ -1,0 +1,27 @@
+<!--
+Please document the following for your pull request.
+-->
+
+# PyLadies Website Pull Request
+_Please document the following. We will aim to be as timely as possible in processing your pull request, however as this is a volunteer staffed project anticipate at least a week for pull requests to start to be reviewed._ 
+
+## What is the scope of this pull request?
+<!--
+Include any relevant information such as list of files changed and the overall functionality this pull request removes or adds or modifies.
+-->
+
+## Did you confirm the build locally looks correct?
+<!--
+Example of response:
+
+Mark which one is correct. Include a screen shot confirming the website builds with your changes.
+-->
+
+- [ ] Yes
+- [ ] No
+
+<!--
+Add any other team you think should be subscribed to this issue
+
+/cc your team
+-->
