@@ -1,0 +1,19 @@
+name: Pelican site CI
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: bimbimprasetyoafif/pelican-simple@v1
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
