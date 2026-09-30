@@ -1,55 +1,61 @@
-title: Novo site do PyLadies São Carlos
-description: Documentação do novo site do PyLadies São Carlos
-modified: 2023-10-22
-category: site
-tags: site
-author: Juliana Karoline de Sousa 
+# Site do PyLadies São Carlos
 
-## Motivação
-O site original do PyLadies São Carlos foi criado em 2015, e desde então não havia sido atualizado.
-A ideia desse projeto é atualizar o site, tornando-o mais moderno e com uma aparência mais profissional.
+Repositório do site do [PyLadies São Carlos](https://saocarlos.pyladies.com).
 
 ## Tecnologias utilizadas
+
 ### [Pelican](https://getpelican.com/)
+
 Pelican é um gerador de sites estáticos escrito em Python. Ele utiliza o Markdown para escrever os posts e o Jinja2 para os templates.
 
 ## Como rodar o projeto
+
 1. Clone o repositório
 ```bash
 git clone https://github.com/pyladies/pyladies-sao-carlos-website.git
 ```
+
 2. Entre na pasta clonada
 ```bash
 cd pyladies-sao-carlos-website
 ```
+
 3. Crie um ambiente virtual
 ```bash
 python -m venv .venv
 ```
+
 4. Ative o ambiente virtual
 ```bash
 source .venv/bin/activate
 ```
+
 5. Instale as dependências
 ```bash
 python -m pip install .
 ```
+
 6. Rode o servidor
 ```bash
 pelican --autoreload --listen
 ```
+
 7. Acesse o site em http://localhost:8000
 
 Caso crie um arquivo, rode o comando `pelican content` para gerar o HTML e atualizar o site.
 
 ## Como contribuir
+
 1. Faça um fork do repositório
+
 2. Crie uma branch para o seu post
 ```bash
-git switch -c meu-post
+git switch -c <nome-do-post>
 ```
-3. Escreva o seu post utilizando Markdown e coloque-o na pasta `content`
-Atente-se para utilizar a convenção de nomenclatura `AAAA-MM-DD--nome-do-post.md`
+
+3. Escreva o seu post utilizando Markdown e coloque-o na pasta `content`.
+Atente-se para utilizar a convenção de nomenclatura `AAAA-MM-DD--nome-do-post.md`.
+
 4. Coloque no começo do seu arquivo as seguintes informações:
 ```
 title: Título do seu post
@@ -58,12 +64,15 @@ modified: AAAA-MM-DD
 category: categoria
 tags: tags
 ```
-3. Faça o commit das suas alterações
+
+5. Faça o commit das suas alterações
 ```bash
 git commit -m 'meu post'
 ```
-4. Faça o push para a sua branch
+
+6. Faça o push para a sua branch
 ```bash
-git push origin --set-upstream meu-post
+git push origin --set-upstream <nome-do-post>
 ```
-5. Abra um Pull Request no repositório original
+
+7. Abra um Pull Request no repositório original
