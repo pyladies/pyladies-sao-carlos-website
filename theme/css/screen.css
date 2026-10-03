@@ -241,6 +241,7 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
   cursor: pointer;
 }
 
@@ -278,6 +279,7 @@ input[type="number"]::-webkit-outer-spin-button {
 /* line 353, ../sass/base/bootstrap/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
+  appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -2544,6 +2546,7 @@ textarea.form-control {
 /* line 164, ../sass/base/bootstrap/_forms.scss */
 input[type="search"] {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 /* line 174, ../sass/base/bootstrap/_forms.scss */
@@ -6801,6 +6804,7 @@ button.close {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 /* line 11, ../sass/base/bootstrap/_modals.scss */
@@ -7787,7 +7791,7 @@ article .meta a {
   width: 44px;
   height: 44px;
   z-index: 700;
-  background-color: #949494;
+  background-color: #f79494;
   text-align: center;
   border: 0;
 }
@@ -7804,7 +7808,7 @@ article .meta a {
   left: 0;
   z-index: 600;
   width: 100%;
-  background-color: #949494;
+  background-color: #f79494;
   display: flex;
   justify-content: space-between;
   align-items: center;
